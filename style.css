@@ -1,0 +1,266 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+}
+.game {
+	
+	background-image: url(360_F_325384191_sg1D5lYWfRedGQsBm8xIHnsSAUUUVxGE.webp);
+	display:flex;
+	/* background-color: red; */
+	background-size: cover;
+	/* position: absolute; */
+	
+}
+
+#player-1{
+	width:  50vw;
+	height:  100vh;
+	box-sizing: border-box;
+	/* border: solid black 1px; */
+	/* background-color: blue; */
+	color: blue;
+	
+	justify-items: center;
+	justify-content: center;
+	border-right: black solid 5px;
+	
+	
+}
+
+h1{
+	margin-left:  13vw;
+	text-align: center;
+	margin-right: 10vw;
+	background-color: gray;
+	border-radius: 9%;
+	border:solid lightgray 5px;
+}
+.cardHolder{
+	display: flex;
+}
+#player-2{
+	width:  50vw;
+	height:  100vh;
+	color: red;
+	
+
+	/* box-sizing: border-box; */
+	border-left:black solid 5px;
+	/* background-color: red; */
+
+
+}
+#card2{
+	margin-top: 10vw;
+	margin-left: 5vw;
+	justify-content: center;
+	width:  205px;
+	height:  300px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#faceUp2{ 
+	margin-top: 10vw;
+	margin-left: 5vw;
+	justify-content: center;
+	width:  240px;
+	height:  300px;
+	background-color: gray;
+	border-radius: 4%;
+	/* background-image: url(istockphoto-157772536-612x612.jpg); */
+	background-size: cover;
+}
+#faceUp1{
+	margin-top: 10vw;
+	margin-left: 5vw;
+	justify-content: center;
+	width:  240px;
+	height:  300px;
+	background-color: gray;
+	border-radius: 4%;
+	
+	/* background-image: url(istockphoto-157772536-612x612.jpg); */
+	background-size: cover;
+}
+#card1{ 
+	margin-top: 10vw;
+	margin-left: 10vw;
+	justify-content: center;
+	width:  205px;
+	height:  300px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#btn2{
+	margin-top: 20vh;
+	margin-left: 5vw;
+	border-radius: 40%;
+	height: 45px;
+	width: 	70px;
+}
+#btn1{
+	margin-top: 20vh;
+	margin-left: 5vw;
+	border-radius: 40%;
+	height: 45px;
+	width: 	70px;
+}
+#tieContainer{
+	display: flex;
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border:solid black 1px;
+	z-index: 10;
+	width:50vw;
+	max-width: 80%;
+	height: 50vh;
+	background-image: linear-gradient(to right, rgb(0, 0, 255, .9) , rgb(255, 0, 0, .9));
+}
+#player1card1{
+	margin-top: 6vw;
+	margin-left: 10vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-size: cover;
+}
+#player1card2{
+	margin-top: -3vw;
+	margin-left: 10vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#player1card3{
+	margin-top: -3vw;
+	margin-left: 10vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#player1card4{
+	margin-top: -3vw;
+	margin-left: 10vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#player1card5{
+	margin-top: -3vw;
+	margin-left: 10vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-size: cover;
+}
+#player2card1{
+	margin-top: 6vw;
+	margin-left: 20vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-size: cover;
+}
+#player2card2{
+	margin-top: -3vw;
+	margin-left: 20vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#player2card3{
+	margin-top: -3vw;
+	margin-left: 20vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#player2card4{
+	margin-top: -3vw;
+	margin-left: 20vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	background-image: url(istockphoto-157772536-612x612.jpg);
+	background-size: cover;
+}
+#player2card5{
+	margin-top: -3vw;
+	margin-left: 20vw;
+	justify-content: center;
+	width:  54px;
+	height:  70px;
+	background-color: brown;
+	border-radius: 2%;
+	/* background-image: url(istockphoto-157772536-612x612.jpg); */
+	background-size: cover;
+}
+#cardleft2{
+	/* top:20px; */
+	height: 20px;
+	background-color: gray;
+	border-radius: 20%;
+	/* border: white solid 2px; */
+}
+#cardleft1{
+	
+	height: 20px;
+	background-color: gray;
+	border-radius: 20%;
+	/* border: white solid 2px; */
+}
+#gameoverplayerwins{
+	/* display: flex; */
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border:solid black 1px;
+	z-index: 10;
+	width:50vw;
+	max-width: 80%;
+	height: 50vh;
+	/* background-image: */
+}
+#newgamebtn{
+	padding: 1fr;
+	justify-items: center;
+	justify-content: center;
+	width: 25vw;
+	height: 25vh;
+	margin-left: 14vw;
+}

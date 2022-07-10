@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<style>
+	</style>
+    <title>Documnet</title>
+</head>
+<body>
+	<div class='game'>
+		<div class='player-1' id="player-1">
+			<h1>Player 1</h1>
+			<div class="cardHolder">
+				<div draggable="true" ondragover="allowDrop" class="card" id="card1"><button class="btn"id='btn1'>war</button></div>
+				<div drop='true' ondragover="allowDrop(event)" class="faceUp"id='faceUp1'></div>
+				<span id="cardleft1"></span>
+			</div>
+			<!-- <button class="btn"id='btn1'>war</button> -->
+		</div>
+		<div id="player-2">
+			<h1>Player 2</h1>
+			<div class="cardHolder">
+				<div class='faceUp'id='faceUp2'></div>
+				<div class="card" id="card2"><button class="btn" id='btn2'>War</button></div>
+				<span id="cardleft2"></span>
+			</div>
+			<!-- <button class="btn" id='btn2'>War</button> -->
+		</div>
+	</div>
+	<div>
+
+	</div>
+	
+<script src="script.js"></script>
+
+</body>
+</html>
