@@ -51,6 +51,10 @@ function splitTheDeck() {
 }
 splitTheDeck(deck);
 
+// --------------------
+// use const if the value is constant
+// ---------------
+
 let player1Btn = document.getElementById("btn1");
 let player2Btn = document.getElementById("btn2");
 // let player1Flip=document.getElementById()
@@ -91,6 +95,13 @@ function war() {
   player2Card.style.backgroundImage = `URL(${player2[0].img})`;
   roundWinner();
 }
+
+
+// ----------------
+// the if/else is repetitive
+// you could call another function inside the statment instead of repeating the code
+// -------------------------
+
 function roundWinner() {
   if (player1[0].value > player2[0].value) {
     console.log("player1");
@@ -121,6 +132,11 @@ function roundWinner() {
 console.log(player2);
 console.log(player1);
 let body = document.body;
+
+// ------------------
+// You could do an OR inside the if condition to avoid if/else
+// -----------------
+
 function gameover() {
   if (player1.length === 52) {
     console.log("player1 winner");
@@ -135,6 +151,16 @@ function gameover() {
   } else {
   }
 }
+
+// --------------------
+// You should use a loop to create the div
+// ----------------------
+
+// --------------------
+// The code is hard to read from here
+// Try to refactor it with loops and functions
+// we could have a talk about it
+// -------------------
 
 // tiecontainer
 function tieContainer() {
@@ -195,6 +221,13 @@ function tieContainer() {
   player2card5.setAttribute("id", "player2card5");
   cardsleft();
 }
+
+// --------------------
+// too repetitive
+// ---------------------
+
+
+
 //if they have less then 5 cards
 function cardsleft() {
   if (player1.length >= 5 && player2.length >= 5) {
